@@ -52,7 +52,7 @@ export default function page() {
       name: "Update specific updated products",
     };
     const response = await fetch(
-      `${process.env.NEXT_PUBLIC_DJANGO_API_URL}/api/products/${144}/`,
+      `${process.env.NEXT_PUBLIC_DJANGO_API_URL}/api/products/${539}/`,
       {
         method: "PATCH",
         headers: {
